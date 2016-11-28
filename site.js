@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  $('#time-form').on('submit', function(event) {
+  $('#w-form').on('submit', function(event) {
     var loc = $('#location').val();
     $.get(
       'https://api.wunderground.com/api/12e40bb7b66b204b/conditions/q/'+loc+'.json',
       function(data) {
-        $('#primary').append(
+        $('#print').append(
           '<p><a href="'+data.current_observation.forecast_url+'">'+data.current_observation.display_location.city+'</a></p>'
         );
       });
