@@ -8,6 +8,10 @@ $(document).ready(function() {
           '<p><a href="'+data.current_observation.forecast_url+'">'+data.current_observation.display_location.city+', '
                         +data.current_observation.display_location.state+'</a></p>'
         );
+        $('#temp').append(
+          '<p>The temperature in '+data.current_observation.display_location.city+', '
+              +data.current_observation.display_location.state+' is '+data.current_observation.temp_f+'.<p>'
+        );
       });
       event.preventDefault();
   });
