@@ -10,9 +10,14 @@ $(document).ready(function() {
         );
         $('.temp').append(
           '<p>The temperature in '+data.current_observation.display_location.city+', '
-              +data.current_observation.display_location.state+' is '+data.current_observation.temp_f+'.<p>'
+              +data.current_observation.display_location.state+' is '+data.current_observation.temp_f+' <sup>o</sup>F.<p>'
         );
-        
+        $('.status').append(
+          '<p>It is '+data.current_observation.icon+' outside.<p>'
+        );
+        $('.wind').append(
+          '<p>The wind is blowing '+data.current_observation.wind_mph+' mph.<p>'
+        );
       });
       event.preventDefault();
   });
