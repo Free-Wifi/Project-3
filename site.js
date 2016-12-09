@@ -4,6 +4,7 @@ $(document).ready(function() {
     $.get(
       'https://api.wunderground.com/api/12e40bb7b66b204b/conditions/q/'+loc+'.json',
       function(data) {
+        $('.location, .temp, .status, .wind, .icon').empty();
         $('.location').append(
           '<p>Your location is '+data.current_observation.display_location.city+', '
                         +data.current_observation.display_location.state+'.</p>'
