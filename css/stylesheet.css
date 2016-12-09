@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } */
+
+html {
+    background-color: aquamarine;
+}
+
+.main {
+    padding: 5,5,5,5;
+    text-align: center;
+    background-color: aqua
+}
