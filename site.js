@@ -20,8 +20,6 @@ $(document).ready(function() {
         );
         $('.icon').append(
         '<p><img class="icon" src="'+data.current_observation.icon_url+'"><p>'
-        $('#print').append(
-          '<p><a href="'+data.current_observation.forecast_url+'">'+data.current_observation.display_location.city+'</a></p>'
         );
       });
       event.preventDefault();
