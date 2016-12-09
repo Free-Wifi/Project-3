@@ -6,58 +6,63 @@
 /* Keep reset CSS to one minified line */
 /*a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
-header {
-  font-size: 2em;
+html {
+  background-color: aquamarine;
+}
+.main {
   text-align: center;
-  padding-bottom: 1em;
+}
+header {
+  background-color: aqua;
+  padding: 2em 0;
+  font-size: 1.25em;
+  text-align: center;  
   font-weight: bold;
 }
 .location {
   text-align: center;
-  font-size: 1.25em;  
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 1.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 .temp {
   text-align: center;
-  font-size: 1.2em;  
+  font-size: 1.25em;  
   padding-top: 1em;
-  padding-bottom: 1em;
 }
 .icon {
-  padding-left: 8%;
+  padding-left: 23%;
   width: 45%;
-  margin: 0 auto;
 }
 .status {
-  padding-left: 6em;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  font-size: 1.25em;
+  text-align: center;
 } 
-
-html {
-    text-align: center;
-    background-color: aquamarine;
-}
-
-.main {
-    text-align: center;
-    max-width: 80%;
-    max-height: 80%;
-    margin: 0 auto;
-    padding: 2em 0em 2em 0em;
-    background-color: aqua
-}
-
 .wind {
-  
+  text-align: center;
+  font-size: 1.25em;  
 }
 
+@media screen and (min-width: 830px) { 
+  header {
+    padding: 1.2em 0;
+    font-size: 1.5em;
+  }
+  #w-form {
+    font-size: 1.35em;
+  }
+  .location {
+    font-size: 1.65em;
+  }
+  .temp {
+    font-size: 1.65em;  
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .status {
+    font-size: 1.65em;
+  } 
+  .wind {
+    font-size: 1.65em;  
+  }
+}
