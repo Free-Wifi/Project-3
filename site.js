@@ -10,7 +10,7 @@ $(document).ready(function() {
         );
         $('.temp').append(
           '<p>The temperature in '+data.current_observation.display_location.city+', '
-              +data.current_observation.display_location.state+' is '+data.current_observation.temp_f+' <sup>o</sup>F.</p>'
+              +data.current_observation.display_location.state+' is '+data.current_observation.temp_f+' F.</p>'
         );
         $('.status').append(
           '<p>It is '+data.current_observation.icon+' outside.</p>'
