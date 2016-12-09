@@ -8,16 +8,23 @@
     <header>
       <h1>Weather for Location</h1>
     </header>
-    <article id='print'>
-    </article>
     <article>
-      <p>Enter State by abbreviation and then City name. (Ex. IL/Chicago)</p>
+      <p>Enter Zip Code.</p>
        <form id="w-form" name="w-form" method="get" action="#null">
          <label for="location">Location:</label>
          <input type="text" id="location" name="location" />
          <input type="submit" id="w-submit" name="w-submit" value="Search" />
-       </form> 
-    </article>
+         <section class ="location">
+         </section>
+         <section class="temp">
+         </section>
+         <section class="status">
+         </section>
+         <section class="wind">
+         </section>
+         <section class="icon">
+         </section>
+      </article>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="site.js"></script>
   </body>
