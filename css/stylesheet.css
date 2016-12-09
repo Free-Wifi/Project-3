@@ -27,11 +27,9 @@ header {
 .icon {
   padding-left: 8%;
   width: 45%;
-  margin-left: auto;
-  margin-right: auto
+  margin: 0 auto;
 }
 .status {
-  
   padding-left: 6em;
 }
 
@@ -46,12 +44,16 @@ table {
 } 
 
 html {
+    text-align: center;
     background-color: aquamarine;
 }
 
 .main {
-    padding: 5,5,5,5;
     text-align: center;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+    padding: 2em 0em 2em 0em;
     background-color: aqua
 }
 
