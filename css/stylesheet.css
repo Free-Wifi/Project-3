@@ -8,34 +8,30 @@
 /* stylelint-enable */
 html {
   background-color: aquamarine;
-  text-align: center;
 }
 .main {
-  background-color: aqua;
   text-align: center;
-  padding: 2em 0em;
-  background-color: aqua;
 }
 header {
+  background-color: aqua;
+  padding: 2em 0;
   font-size: 1.25em;
-  text-align: center;
-  padding-bottom: 1em;
+  text-align: center;  
   font-weight: bold;
 }
 .location {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.25em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 .temp {
   text-align: center;
-  font-size: 1.2em;  
+  font-size: 1.25em;  
   padding-top: 1em;
-  padding-bottom: 1em;
 }
 .icon {
-  padding-left: 25%;
+  padding-left: 23%;
   width: 45%;
 }
 .status {
@@ -45,4 +41,28 @@ header {
 .wind {
   text-align: center;
   font-size: 1.25em;  
+}
+
+@media screen and (min-width: 830px) { 
+  header {
+    padding: 1.2em 0;
+    font-size: 1.5em;
+  }
+  #w-form {
+    font-size: 1.35em;
+  }
+  .location {
+    font-size: 1.65em;
+  }
+  .temp {
+    font-size: 1.65em;  
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .status {
+    font-size: 1.65em;
+  } 
+  .wind {
+    font-size: 1.65em;  
+  }
 }
