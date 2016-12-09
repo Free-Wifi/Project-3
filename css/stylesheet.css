@@ -7,16 +7,15 @@
 /*a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 header {
-  font-size: 2em;
+  font-size: 1.25em;
   text-align: center;
   padding-bottom: 1em;
   font-weight: bold;
 }
 .location {
   text-align: center;
-  font-size: 1.25em;  
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 .temp {
   text-align: center;
@@ -31,31 +30,18 @@ header {
   margin-right: auto
 }
 .status {
-  
   padding-left: 6em;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 } 
-
 html {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
-
 .main {
-    padding: 5,5,5,5;
-    text-align: center;
-    background-color: aqua
+  padding: 5,5,5,5;
+  text-align: center;
+  background-color: aqua
 }
-
 .wind {
-  
+  text-align: center;
+  font-size: 1.25em;  
 }
 
